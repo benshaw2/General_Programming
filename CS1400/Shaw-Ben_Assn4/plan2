@@ -1,0 +1,7 @@
+1. Requirements Specification: construct a chessboard using a module. after the outline is made, the rectangles should be constructed be looping through a procedure which constructs all rectangles.
+
+2. System analysis: The "outline" specifications are loose, and so we will draw a path which makes the drawing run faster. we will trace out two zig-zag patterns and then fill in the colors of the board.
+
+3. System design: Our main() function will ask for user input, then call the drawChessboard() function. The outline will be a zigzag pattern in order to make the program run faster. Then, the drawAllRectangles() function will be called, which will call the drawRectangle() function in a loop. The drawRectangle() function will complete the missing side of the rectangle in the appropriate color for later filling. The drawAllRectangles() function will call trace out the remaining zigzag pattern to complete the chessboard. Then the rectangles will be filled with the proper color.
+
+4. Testing: This program will be tested using the colors black and red, since the white traces are invisible. We will test this program for various inputs of starting points, heights, and widths.

@@ -1,0 +1,7 @@
+1. Requirements Specification: We are to write a game which allows the user to construct rectangular or circular shapes. Other details are available in the assignment description.
+
+2. System analysis: Whether the shapes desired by the user are circles or rectangles, the turtle will need to trace out a circle with the shapes.
+
+3. System design: The main() function will implement a while loop in which the game will terminate only when the user inputs that they are done playing. We will employ conditional statements to allow the user to choose which objects to draw. For each object, there will be corresponding commands in the pattern.py module. We will employ for loops to draw the objects in a circular pattern, and the rectangular pattern function will call a function which draws a rectangle.
+
+4. Testing: We will test this program with various inputs to ensure that the program is running as intended.

@@ -1,0 +1,16 @@
+1. Requirements Specification: We are to build a pyramid of numbers: the top is 1, the next row 2, etc. The number of rows is user-specified.
+
+2. System analysis: We must allow for enough room for the pyramid to appear, and we must also make it centered. The total width depends on the length of the user-input number. It must be at least this length multiplied by the number input by the user, though there also needs to be a space between the numbers.
+
+3. System design:
+(a) We will ask the user for the number.
+(b) Next, we will define the function which constructs the pyramid.
+(c) the function first calculates a sufficiently long width.
+(d) Then the function constructs the pyramid in a nested for loop: for each number from 1 to the user input number, each line is defined as a string "number number number ..."
+(e) The message is formatted so that each line is centered.
+(f) The message is concatenated with "\n" at the end of each line.
+(g) the final message is returned, which constitutes the end of the function definition.
+(h) The variable msg is assigned to the value of the function evaluated at the user-given number;
+(i) the variable msg is printed with the print command.
+
+4. Testing: We will test this by constructing the code explicitly. It is included in this assignment submission, though not in place of this required development plan. It is just for reference and was used as an aide in completing this assignment.

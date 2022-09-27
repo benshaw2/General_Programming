@@ -1,0 +1,7 @@
+1. Requirements Specification: With user inputs of a name, number of hours worked in a week, hourly rate, and both federal and state tax withholding rates, we need to output an information sheet detailing the gross/net pay and tax withholding information.
+
+2. System analysis: We must calculate the weekly gross pay as the product of the number of weekly hours worked and the hourly rate of pay; we must calculate both federal and state withholding amounts as the product of the associated rate and the gross pay; we must add state and federal tax withholding amounts, and we must calculate the net pay as the difference of the gross pay and the total withholdings.
+
+3. System design: First, we will prompt the user for the required inputs. We will then convert all but the name input to floating point in order to perform mathematical computations. We will round the computations to the hundredth using the round() command. We will define quantities which relate to the width of the document. We will construct the to-be-printed string in steps, using augmented operators, and being careful to format the sheet in accordance with the given template. Finally, we will print the result using the print command.
+
+4. Testing: We will test the formulas using an easily-computable, made-up example. Our second example will be the example given in the assignment description: this will force us to ensure that our output has been formatted correctly.

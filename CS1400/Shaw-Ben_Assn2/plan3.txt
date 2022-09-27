@@ -1,0 +1,7 @@
+1. Requirements Specification: we need the number of sides and the lengths of the sides specified by the user. We will output the area of the regular polygon, rounded to 5 decimal places.
+
+2. System analysis: the area is the quotient of two numbers. The numerator is the product of the number of sides (n) with the square of the length (s) of the sides, while the denominator is the product of 4 and tah(pi/n).
+
+3. System design: first, prompt user for n. Second, prompt user for s. Our code will need to import math in multiple ways to adhere to the assignment guidelines. We will define the numerator, define the denominator, then take the quotient to compute the area. We will round this result and print the result.
+
+4. Testing: first, we will test the area of a square of side length 100: the area is 100^2. Next, we will test the area of a 7-sided polygon with side lengths 5: area is approximately 90.84781 .
